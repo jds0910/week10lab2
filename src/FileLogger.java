@@ -16,7 +16,7 @@ public class FileLogger {
                 writer.close();
             }
             System.out.println("Logger closed.");
-            // finally ensures resources close even if an exception occurs, preventing leaks.
+        
         }
     }
 
